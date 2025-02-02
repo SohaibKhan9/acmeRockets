@@ -16,7 +16,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    position:fixed;
+    position: fixed;
     width: 100%;
     top: 0;
 }
@@ -27,7 +27,6 @@ header {
     align-items: center;
     width: 65vw;
     color: white;
-    vertical-align: middle;
 }
 
 h1 {
@@ -36,7 +35,7 @@ h1 {
     font-size: 30px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     list-style: none;
     padding: 0px 10px;
@@ -47,7 +46,7 @@ nav ul li a {
     text-decoration: none;
     color: white;
     text-align: center;
-    font-family:  Roboto, arial;
+    font-family: Roboto, arial;
     font-weight: 350;
     font-size: 20px;
     letter-spacing: 0.5px;
@@ -55,7 +54,8 @@ nav ul li a {
 }
 
 ul li a:hover {
-    color: rgb(224, 247, 245);;
+    color: rgb(224, 247, 245);
+    ;
 }
 
 
@@ -68,13 +68,14 @@ ul li a:hover {
     width: 65vw;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
     margin-top: 130px;
     margin-bottom: 50px;
 }
 
 .hero-left {
-   margin-right: 80px;
-   margin-top: 40px;
+    margin-top: 40px;
+    width: 400px;
 }
 
 .hero-left h2 {
@@ -126,8 +127,9 @@ hr.section-breaker {
     padding: 10px;
     margin-bottom: 35px;
     color: rgb(15 23 42);
-    
+
 }
+
 .rockets-container {
     display: flex;
     justify-content: center;
